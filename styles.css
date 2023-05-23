@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* NAV */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #494444f8;
+    padding: 10px;
+}
+  
+.logo h2 {
+    margin: 0;
+    color: white;
+}
+  
+.secciones {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+  
+.secciones li a {
+    text-decoration: none;
+    color: #adadad;
+    padding: 5px 10px;
+    /* border-radius: 5px; */
+    /* background-color: #ddd; */
+}
+  
+.secciones li a:hover {
+    background-color: #aaa;
+    color: #fff;
+}
+  
+
+/* CATEGORIAS */
+
+.categoriasVarias{
+    display: flex;
+    justify-content: center;
+}
+
+.categoria{
+    border: solid 1px black;
+    margin: 5px;
+    margin-top: 1rem;
+    padding: 1rem;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-color: rgb(57, 57, 255);
+
+}
+
+
+.titleCategoria{
+    padding: 4px;
+}
+
+.titleDescuento{
+    padding: 4px;
+}
+
+.porcentajeDescuento{
+    padding: 4px;
+}
+
+.documentacion{
+    padding: 4px;
+    color: #aaa;
+} 
+
+
+.venta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.venta h3{
+    font-size: 2rem;
+}
+
+
+/* INPUTS */
+.contenedorNombreApellido{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedorNombreApellido input{
+    width: 315px;
+    height: 30px;
+    margin: 8px;
+}
+
+.contenedorEmail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedorEmail input{
+    width: 650px;
+    height: 30px;
+}
+
+.contenedorCantidadCategoria{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 1rem;
+}
+
+.contenedorCantidad input{
+    width: 320px; 
+    height: 30px;
+    margin-right: 3px;
+}
+
+.contenedorCategoria select{
+    width: 327px; 
+    height: 34px;
+} 
+
+.contenedorH2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem; 
+}
+#changeH2{
+    border: 1px solid aquamarine;
+    width: 652px;
+    height: 30px;
+    font-size: 1rem;
+    border-radius: 6px;
+    background-color: aquamarine;
+}
+
+.contenedorBtns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorBtns input{
+    width: 320px;
+    margin: 8px;
+    margin-top: 1.5rem;
+    height: 30px;
+    background-color: rgb(175, 255, 83);
+    border-color: rgb(175, 255, 83);
+}
